@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <title>Delicious Bakery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #c3c4dd;
+      }
+      header {
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 20px;
+        
+      }
+      h1 {
+        font-size: 48px;
+        margin: 0;
+        text-align: center;
+        color: rgb(218,165,32);
+        font-family: 'Tangerine', serif
+      }
+      section {
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px 0;
+        text-align: center;
+      }
+      h2 {
+        font-size: 36px;
+        margin: 0 0 20px;
+    
+
+      }
+      p {
+        font-size: 24px;
+        margin: 0 0 40px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      li {
+        margin: 0 20px;
+      }
+      li img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #F8C471;
+      }
+      button {
+        background-color: #dea13f;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 15%;
+      }
+      button:hover {
+        background-color: #FFA726;
+      }
+
+      footer {
+    background-color: #0e0d0d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(18, 12, 97);
+}
+.topnav-right {
+  float: right;
+}
+.social{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.social a{
+	display: inline-block;
+	padding: 5px;
+
+}
+.social a i{
+	color: #fff;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    line-height: 50px!important;
+    border: 3px solid #fff;
+	opacity: .8;
+transition-property: transform;
+    -moz-transition-property: -moz-transform;
+    -webkit-transition-property: -webkit-transform;
+    transition: all 0.6s cubic-bezier(0.88, -0.48, 0.38, 1.85);
+	border-radius: 50%;
+	
+	}
+.social a i:hover{
+	opacity: 1;
+	border-radius: 20%;
+	
+}
+.social a:hover i.fa-linkedin-in,.social a:hover i.fa-telegram-plane{
+	transition:  .6s ease-in;
+	background: #0088cc; 
+	color: white;
+	border: 3px solid #00aaff; 
+	
+transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.social a:hover i.fa-at{
+	transition:  .6s ease-in;
+	background: #D44638; 
+	color:white;
+	border: 3px solid #fd8e8e;
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg); 
+}
+.social a:hover i.fa-instagram{
+	transition:  .6s ease-in;
+	background: linear-gradient(#F58529 20%, #FEDA77 50%, #DD2A7B 75%, #8134AF 90%, #515BD4)
+; 
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+	border: 3px solid #fd8e8e; 
+	color:white;
+	
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Delicious Bakery</h1>
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#Services">Services</a>
+        <a href="#contact">Contact</a>
+        <div class="topnav-right">
+          <a href="#search">Search</a>
+          <a href="#about">About</a>
+        </div>
+    </header>
+    
+    <section>
+      <h2>Welcome to our Bakery</h2>
+      <p>We offer a wide variety of delicious baked goods made with the finest ingredients. From cakes to pastries, bread to cookies, our selection will leave you wanting more.</p>
+      <ul>
+        <li><img src="cake.jpeg" alt="Bakery item"></li>
+        <li><img src="ice cream.jpg" alt="Bakery item"></li>
+        <li><img src="pizza.jpg" alt="Bakery item"></li>
+      </ul>
+      <button>Order Now</button>
+    </section>
+    <footer>
+        <section class="social">
+			<a href="">
+				<i class="fas fa-at"></i>
+			</a>
+			<a href="">
+				<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="">
+				<i class="fab fa-instagram"></i>
+			</a>
+
+			<a href="">
+				<i class="fab fa-telegram-plane"></i>
+			</a>
+		</section>
+        <p>Copyright &copy; deliciousbakery.ac.in 2023</p>
+
+      </footer>
+  </body>
+</html>
